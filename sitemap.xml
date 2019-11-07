@@ -3,20 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tianzedong.github.io/post/blog/</loc>
-    <lastmod>2019-11-06T16:53:07+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tianzedong.github.io/</loc>
-    <lastmod>2019-11-06T16:53:07+08:00</lastmod>
+    <lastmod>2019-11-07T09:21:33+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://tianzedong.github.io/post/</loc>
-    <lastmod>2019-11-06T16:53:07+08:00</lastmod>
+    <lastmod>2019-11-07T09:21:33+08:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tianzedong.github.io/post/research/</loc>
+    <lastmod>2019-11-07T09:21:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tianzedong.github.io/post/blog/</loc>
+    <lastmod>2019-11-06T16:53:07+08:00</lastmod>
   </url>
   
   <url>
