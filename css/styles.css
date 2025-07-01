@@ -97,7 +97,7 @@ section {
     content: '';
     position: absolute;
     width: 6px;
-    background-color: #333;
+    background-color: #555;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -126,14 +126,20 @@ section {
     height: 25px;
     right: -17px;
     background-color: white;
-    border: 4px solid #FF9F55;
+    border: 4px solid #007bff; /* A more vibrant blue */
     top: 15px;
     border-radius: 50%;
     z-index: 1;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
 }
 
 .timeline-container.right::after {
     left: -16px;
+}
+
+.timeline-container:hover::after {
+    transform: scale(1.2); /* Enlarge on hover */
+    background-color: #007bff; /* Fill color on hover */
 }
 
 .timeline-content {
@@ -141,6 +147,12 @@ section {
     background-color: white;
     position: relative;
     border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Subtle shadow */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.timeline-content:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Larger shadow on hover */
 }
 
 /* Contact Section */
