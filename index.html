@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carl Dong - Software Engineer</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#publication">Publication</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Carl Dong</h1>
+            <p>Computer Science Student & Aspiring Software Engineer</p>
+            <div class="social-links">
+                <a href="https://github.com/tianzedong" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/tianze-dong/" target="_blank">LinkedIn</a>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Programming Languages:</strong> Python, Rust, Java, R, C/C++, TypeScript, JavaScript, Go, PHP, Perl, Kotlin, C#, VB.NET</li>
+                <li><strong>Frameworks:</strong> React.js, Node.js, Spring Boot, MyBatis, Vue, PyTorch, sci-kit-learn, NumPy, Pandas, Matplotlib, TensorFlow, LangChain, Flask, SQLAlchemy, SFTTrainer, Angular, Django, Nexus, FastAPI, GRPC</li>
+                <li><strong>Databases:</strong> MySQL, PostgreSQL, MongoDB, Redis, Access, DynamoDB</li>
+                <li><strong>Development Tools and Platforms:</strong> AWS, Linux, Nginx, Docker, Git, GCP, Azure, CI/CD, Ajax, Sparx, Kubernetes</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Agent Data-Flow Firewall</h3>
+                <p>Designing a real-time interception layer that tags each agent tool call with a precise security tier, tracks data as it moves between tiers, and automatically blocks, masks, or downgrades any payload that violates flow rules. Building a Rust-based hybrid inspection engine that combines AWS Bedrock guardrails, LLM context analysis, and embedding-similarity comparisons against prior tool outputs to detect and flag data leaks in real time.</p>
+                <p><strong>Technologies used:</strong> Rust, Python, AWS CDK, ECS Fargate, CloudWatch</p>
+            </div>
+            <div class="project">
+                <h3>AI Agent for Electronic Health Records</h3>
+                <p>Developed an AI agent serving as a natural language interface for Electronic Health Records, utilizing LangChain and Flask for the backend, React and TypeScript for the frontend, and Google BigQuery for data retrieval. Implemented Retrieval-Augmented Generation (RAG) by collecting over 500 natural language prompts from healthcare papers and creating corresponding SQL queries, which were stored in an embedding database using Chroma DB to serve as a few-shot demos repository for the model, improving text-to-SQL accuracy by 18%.</p>
+                <p><strong>Technologies used:</strong> Python, Flask, React, TypeScript, LangChain, Google BigQuery, Chroma DB, Docker</p>
+            </div>
+            <div class="project">
+                <h3>Interpretable Allosteric Site Identification</h3>
+                <p>Spearheaded the design of an interpretable method to identify allosteric sites by analyzing self-attention weights and identifying critical attention heads in ESM2, a transformer-based protein language model. Led the assembly and implementation of rigorous data quality controls for the ASD dataset, utilizing Amazon S3 for secure and scalable data storage and Amazon RDS for robust data management.</p>
+                <p><strong>Technologies used:</strong> Python, AWS (S3, RDS, Lambda, Batch), ESM2</p>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <div class="job">
+                <h3>Software Development Engineer Intern | Amazon Web Service</h3>
+                <p><em>2025/05 - Present</em></p>
+                <ul>
+                    <li>Designing a real-time interception layer that tags each agent tool call with a precise security tier, tracks data as it moves between tiers, and automatically blocks, masks, or downgrades any payload that violates flow rules.</li>
+                    <li>Building a Rust-based hybrid inspection engine that combines AWS Bedrock guardrails, LLM context analysis, and embedding-similarity comparisons against prior tool outputs to detect and flag data leaks in real time.</li>
+                    <li>Provisioning the Rust inspection service with AWS CDK on ECS Fargate and instrumenting it with CloudWatch metrics, logs, dashboards, and alarms; sustaining P95 decision latency ≤ 45 ms and < 4 % overhead under IAM-secured traffic.</li>
+                    <li>Extending the Strands Agent SDK (Python) with a pluggable security handler that intercepts each tool call, attaches session context, and asynchronously consults the policy service.</li>
+                    <li>Orchestrating cross-team rollout by publishing developer guides, sample configs, and CI templates that let three product squads pilot the firewall.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Full-stack Developer Intern | Duke System Group, Duke University</h3>
+                <p><em>2024/04 - 2025/05</em></p>
+                <ul>
+                    <li>Developed an AI agent serving as a natural language interface for Electronic Health Records, utilizing LangChain and Flask for the backend, React and TypeScript for the frontend, and Google BigQuery for data retrieval.</li>
+                    <li>Implemented Retrieval-Augmented Generation (RAG) by collecting over 500 natural language prompts from healthcare papers and creating corresponding SQL queries, which were stored in an embedding database using Chroma DB to serve as a few-shot demos repository for the model, improving text-to-SQL accuracy by 18%.</li>
+                    <li>Constructed state-of-the-art prompt engineering methods for text-to-code generation, including auto-generated chain of thought labeling using schema linking, resulting in a 13% increase in text-to-SQL execution accuracy.</li>
+                    <li>Utilized Docker and Docker Compose to containerize and deploy the application on Duke's virtual machines, streamlining the deployment process and ensuring consistency across development and production environments.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Research Assistant | Rohit Singh Lab, Duke University</h3>
+                <p><em>2023/09 - 2025/05</em></p>
+                <ul>
+                    <li>Spearheaded the design of an interpretable method to identify allosteric sites by analyzing self-attention weights and identifying critical attention heads in ESM2, a transformer-based protein language model.</li>
+                    <li>Led the assembly and implementation of rigorous data quality controls for the ASD dataset, utilizing Amazon S3 for secure and scalable data storage and Amazon RDS for robust data management.</li>
+                    <li>Designed a sophisticated Python-based computational pipeline on AWS, utilizing AWS Lambda and AWS Batch to automate processes and enhance efficiency, which improved project scalability and reduced operational overhead by 50%.</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="publication">
+            <h2>Publication</h2>
+            <div class="publication">
+                <p>Tianze Dong, Christopher Kan, Kapil Devkota, Rohit Singh. “Allo-Allo: Data efficient prediction of allosteric sites”. NeurIPS MLSB: Workshop on Machine Learning in Structural Biology, 2024.</p>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education">
+                <h3>Duke University</h3>
+                <p>B.S. in Computer Science, B.A. in Mathematics</p>
+                <p><em>2021/08 - 2025/12</em></p>
+                <p>GPA: 3.89/4.00</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me at <a href="mailto:tianzedong0112@gmail.com">tianzedong0112@gmail.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Carl Dong</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
