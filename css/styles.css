@@ -149,6 +149,17 @@ section {
     border-radius: 6px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Subtle shadow */
     transition: all 0.3s ease; /* Smooth transition for hover effect */
+    display: flex; /* Use flexbox for alignment */
+    align-items: baseline; /* Align items at the baseline of their content */
+}
+
+.timeline-content h3 {
+    margin-right: 10px; /* Space between year and description */
+    white-space: nowrap; /* Prevent year from wrapping */
+}
+
+.timeline-content p {
+    margin: 0; /* Remove default paragraph margin */
 }
 
 .timeline-content:hover {
