@@ -81,9 +81,20 @@ section {
     border-radius: 5px;
 }
 
-/* Experience & Education Section */
-.job, .education, .publication {
-    margin-bottom: 20px;
+/* Publication Section */
+.publication p a {
+    display: inline-block;
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+    margin-top: 10px; /* Space from the top */
+    transition: background-color 0.3s ease;
+}
+
+.publication p a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
 }
 
 /* Timeline Section */
