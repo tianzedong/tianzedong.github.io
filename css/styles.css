@@ -81,6 +81,26 @@ section {
     border-radius: 5px;
 }
 
+/* Experience & Education Section */
+.job, .education, .publication {
+    margin-bottom: 20px;
+}
+
+.job {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.job h3 {
+    margin: 0;
+}
+
+.job p {
+    margin: 0;
+    white-space: nowrap;
+}
+
 /* Publication Section */
 .publication p a {
     display: inline-block;
