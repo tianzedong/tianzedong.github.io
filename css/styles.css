@@ -165,11 +165,11 @@ section {
 }
 
 .timeline-container.left::after {
-    right: -16px; /* Adjusted for precise alignment */
+    right: -13.5px; /* Adjusted for precise alignment */
 }
 
 .timeline-container.right::after {
-    left: -16px; /* Adjusted for precise alignment */
+    left: -13.5px; /* Adjusted for precise alignment */
 }
 
 .timeline-container:hover::after {
